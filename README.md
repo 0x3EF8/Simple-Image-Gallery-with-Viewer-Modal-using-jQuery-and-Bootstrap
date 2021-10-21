@@ -8,7 +8,7 @@ simple a Image Gallery web application with an image viewer modal.The Image View
 ## Creating the Custom CSS
 The following code is the custom Cascading Style Sheet for the design of the gallery images, container, and viewe modal. It also includes the style for the navigator buttons (Next and Previous) of the for the Images Viewer Modal. Save this file as custom.css and In my case this was located inside the CSS directory.
 
-```CSS
+```Style
        .img-item .card 
        {
         cursor: pointer;
@@ -113,6 +113,7 @@ The following code is the custom Cascading Style Sheet for the design of the gal
         right: 2em;
         transform: rotate(-56deg);
     }
+    
     ```
     
 ## Creating the Interface
