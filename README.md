@@ -115,6 +115,7 @@ The following code is the custom Cascading Style Sheet for the design of the gal
         transform: rotate(-56deg);
     }
     
+    
 ## Creating the Interface
 The script below is the HTML code of our simple gallery application. This contains the gallery card interface of the application. Save this file as index.html.
 
@@ -213,8 +214,8 @@ The script below is the HTML code of our simple gallery application. This contai
         </div>
         <!-- End of Confirmation Modal -->
     </body>
- 
     </html>
+    
     
     ## Creating the Custom Javascript
 The following script is the custom JavaScript using jQuery which contains the functions for viewing the images in a modal and also the control navigation function for changing the image on the image viewer display. Save this file as script.js. In my case, this file is locaed inside the JS directory.
