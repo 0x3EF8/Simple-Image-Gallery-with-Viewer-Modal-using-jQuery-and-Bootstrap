@@ -8,8 +8,7 @@ simple a Image Gallery web application with an image viewer modal.The Image View
 ## Creating the Custom CSS
 The following code is the custom Cascading Style Sheet for the design of the gallery images, container, and viewe modal. It also includes the style for the navigator buttons (Next and Previous) of the for the Images Viewer Modal. Save this file as custom.css and In my case this was located inside the CSS directory.
 
-
-
+```CSS
        .img-item .card 
        {
         cursor: pointer;
@@ -114,11 +113,12 @@ The following code is the custom Cascading Style Sheet for the design of the gal
         right: 2em;
         transform: rotate(-56deg);
     }
-    
+    ```
     
 ## Creating the Interface
 The script below is the HTML code of our simple gallery application. This contains the gallery card interface of the application. Save this file as index.html.
 
+```HTML
  <!DOCTYPE html>
     <html lang="en">
  
@@ -215,11 +215,12 @@ The script below is the HTML code of our simple gallery application. This contai
         <!-- End of Confirmation Modal -->
     </body>
     </html>
-    
+    ```
     
     ## Creating the Custom Javascript
 The following script is the custom JavaScript using jQuery which contains the functions for viewing the images in a modal and also the control navigation function for changing the image on the image viewer display. Save this file as script.js. In my case, this file is locaed inside the JS directory.
 
+```Script
    var viewer_modal;
     $(function() {
         viewer_modal = $('#imageViewerModal')
@@ -243,7 +244,6 @@ The following script is the custom JavaScript using jQuery which contains the fu
             viewer_modal.find('#img-viewer').attr('src', $('.img-thumb').eq(prev_index).attr('src'))
         })
     })
-    
-    
+    ```
     
     
