@@ -13,6 +13,7 @@ In this tutorial, I used Bootstrap v5 for the design of application. And, kindly
 The following code is the custom Cascading Style Sheet for the design of the gallery images, container, and viewe modal. It also includes the style for the navigator buttons (Next and Previous) of the for the Images Viewer Modal. Save this file as custom.css and In my case this was located inside the CSS directory.
 
 css code here 
+
 .img-item .card {
         cursor: pointer;
     }
