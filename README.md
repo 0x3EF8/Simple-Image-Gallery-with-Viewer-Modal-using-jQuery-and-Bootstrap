@@ -14,7 +14,8 @@ The following code is the custom Cascading Style Sheet for the design of the gal
 
 css code here 
 
-.img-item .card {
+       .img-item .card 
+       {
         cursor: pointer;
     }
  
